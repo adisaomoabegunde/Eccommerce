@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.api\\eccommerce.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|solutionrelative:eccommerce.api\\eccommerce.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|solutionrelative:eccommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|solutionrelative:eccommerce.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9F89EF0-7611-4F40-BA5D-96AF6FEBDC76}|Eccommerce.Domain\\Eccommerce.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F89EF0-7611-4F40-BA5D-96AF6FEBDC76}|Eccommerce.Domain\\Eccommerce.Domain.csproj|solutionrelative:eccommerce.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|solutionrelative:eccommerce.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Program.cs",
+              "RelativeToolTip": "Eccommerce.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T13:47:49.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Eccommerce.Api",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Eccommerce.Api.csproj",
+              "RelativeDocumentMoniker": "Eccommerce.Api\\Eccommerce.Api.csproj",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Eccommerce.Api.csproj",
+              "RelativeToolTip": "Eccommerce.Api\\Eccommerce.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-05T13:22:38.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Api\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\DependencyInjection.cs",
+              "RelativeToolTip": "Eccommerce.Api\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T13:22:59.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Eccormmerce.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "Eccormmerce.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T13:15:39.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Eccommerce.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T13:15:30.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Domain\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Domain\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Domain\\DependencyInjection.cs",
+              "RelativeToolTip": "Eccommerce.Domain\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T13:14:26.263Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
