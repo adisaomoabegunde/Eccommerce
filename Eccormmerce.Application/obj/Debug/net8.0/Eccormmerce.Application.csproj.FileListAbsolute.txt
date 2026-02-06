@@ -1,0 +1,16 @@
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\bin\Debug\net8.0\Eccormmerce.Application.deps.json
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\bin\Debug\net8.0\Eccormmerce.Application.dll
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\bin\Debug\net8.0\Eccormmerce.Application.pdb
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\bin\Debug\net8.0\Eccommerce.Domain.dll
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\bin\Debug\net8.0\Eccommerce.Domain.pdb
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\obj\Debug\net8.0\Eccormmerce.Application.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\obj\Debug\net8.0\Eccormmerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\obj\Debug\net8.0\Eccormmerce.Application.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\obj\Debug\net8.0\Eccormmerce.Application.AssemblyInfo.cs
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\obj\Debug\net8.0\Eccormmerce.Application.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\obj\Debug\net8.0\Eccormmerce.Application.sourcelink.json
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\obj\Debug\net8.0\Eccormme.1A6E358D.Up2Date
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\obj\Debug\net8.0\Eccormmerce.Application.dll
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\obj\Debug\net8.0\refint\Eccormmerce.Application.dll
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\obj\Debug\net8.0\Eccormmerce.Application.pdb
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccormmerce.Application\obj\Debug\net8.0\ref\Eccormmerce.Application.dll
