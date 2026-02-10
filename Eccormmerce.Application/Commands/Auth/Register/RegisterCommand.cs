@@ -9,7 +9,8 @@ namespace Eccormmerce.Application.Commands.Auth.Register
 {
     public record RegisterCommand(
         string Email,
-        string Password
+        string Password,
+        string Role
         ) : IRequest<Guid>;
    
 }

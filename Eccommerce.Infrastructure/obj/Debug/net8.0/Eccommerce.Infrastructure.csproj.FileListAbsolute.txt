@@ -1,4 +1,5 @@
 C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\bin\Debug\net8.0\Eccommerce.Infrastructure.deps.json
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\bin\Debug\net8.0\Eccommerce.Infrastructure.runtimeconfig.json
 C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\bin\Debug\net8.0\Eccommerce.Infrastructure.dll
 C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\bin\Debug\net8.0\Eccommerce.Infrastructure.pdb
 C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\bin\Debug\net8.0\Eccommerce.Domain.dll
@@ -15,6 +16,5 @@ C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructu
 C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\obj\Debug\net8.0\Eccommerce.Infrastructure.dll
 C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\obj\Debug\net8.0\refint\Eccommerce.Infrastructure.dll
 C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\obj\Debug\net8.0\Eccommerce.Infrastructure.pdb
-C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\obj\Debug\net8.0\ref\Eccommerce.Infrastructure.dll
-C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\bin\Debug\net8.0\Eccommerce.Infrastructure.runtimeconfig.json
 C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\obj\Debug\net8.0\Eccommerce.Infrastructure.genruntimeconfig.cache
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Infrastructure\obj\Debug\net8.0\ref\Eccommerce.Infrastructure.dll
