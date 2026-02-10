@@ -1,0 +1,13 @@
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\bin\Debug\net8.0\Eccommerce.Domain.deps.json
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\bin\Debug\net8.0\Eccommerce.Domain.dll
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\bin\Debug\net8.0\Eccommerce.Domain.pdb
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\obj\Debug\net8.0\Eccommerce.Domain.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\obj\Debug\net8.0\Eccommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\obj\Debug\net8.0\Eccommerce.Domain.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\obj\Debug\net8.0\Eccommerce.Domain.AssemblyInfo.cs
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\obj\Debug\net8.0\Eccommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\obj\Debug\net8.0\Eccommerce.Domain.sourcelink.json
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\obj\Debug\net8.0\Eccommerce.Domain.dll
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\obj\Debug\net8.0\refint\Eccommerce.Domain.dll
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\obj\Debug\net8.0\Eccommerce.Domain.pdb
+C:\Users\user\OneDrive\Desktop\Eccommerce\Eccommerce.Api\Eccommerce.Domain\obj\Debug\net8.0\ref\Eccommerce.Domain.dll
