@@ -28,10 +28,14 @@ namespace Eccormmerce.Application.Commands.Auth.Register
 
             var passwordHash = _passwordHasher.Hash(request.Password);
 
+            //var allowedRoles = new[] { "Customer" };
+
+            var role = string.IsNullOrWhiteSpace(request.Role) ? "Customer" : request.Role;
+
             var user = new User(
                     request.Email,
                     passwordHash,
-                    "Customer"
+                    role
                 );
             await _userRepository.AddAsync(user);
             return user.Id;

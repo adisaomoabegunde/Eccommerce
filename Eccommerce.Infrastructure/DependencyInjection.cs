@@ -18,12 +18,14 @@ namespace Eccommerce.Infrastructure
     {
         public static IServiceCollection AddInfrastructureDI (this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<AppDbContext> (options => options.UseSqlServer(configuration.GetConnectionString("Default")));
+            services.AddDbContext<AppDbContext> (options => options.UseSqlServer(configuration.GetConnectionString("Default"),
+                b => b.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName)));
             services.Configure<JwtSettings>(configuration.GetSection("JwtSettings"));
 
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IPasswordHasher, PasswordHasher>();
             services.AddScoped<IJwtTokenGenerator, JwtTokenGenerator>();
+            services.AddScoped<IProductRepository, ProductRepository>();
 
             return services;
         }

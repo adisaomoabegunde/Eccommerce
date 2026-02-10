@@ -1,6 +1,7 @@
 ﻿using Eccormmerce.Application.Commands.Auth.Login;
 using Eccormmerce.Application.Commands.Auth.Register;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Eccommerce.Api.Controllers
@@ -15,7 +16,7 @@ namespace Eccommerce.Api.Controllers
         {
             _mediator = mediator;
         }
-
+        [AllowAnonymous]
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterCommand command)
         {
@@ -28,7 +29,8 @@ namespace Eccommerce.Api.Controllers
                 message = "User registered successfully"
             });
         }
-        [HttpPost("login")]
+        
+        [AllowAnonymous, HttpPost("login")]
         public async Task<IActionResult> Login(LoginCommand command)
         {
             var token = await _mediator.Send(command);

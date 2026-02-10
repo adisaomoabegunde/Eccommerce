@@ -3,96 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|solutionrelative:eccommerce.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|solutionrelative:eccommerce.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|solutionrelative:eccommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|solutionrelative:eccommerce.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|solutionrelative:eccommerce.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\queries\\searchproducts\\searchproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\queries\\searchproducts\\searchproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\queries\\searchproducts\\searchproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\queries\\searchproducts\\searchproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\queries\\getlowstock\\getlowstockproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\queries\\getlowstock\\getlowstockproductshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\queries\\getlowstock\\getlowstockproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\queries\\getlowstock\\getlowstockproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|solutionrelative:eccommerce.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.infrastructure\\auth\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|solutionrelative:eccommerce.infrastructure\\auth\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.infrastructure\\auth\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|solutionrelative:eccommerce.infrastructure\\auth\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.infrastructure\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|solutionrelative:eccommerce.infrastructure\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\commands\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\commands\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\validators\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\validators\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\commands\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\commands\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\interfaces\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\interfaces\\ijwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\commands\\auth\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\commands\\auth\\register\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\commands\\auth\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\commands\\auth\\register\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.infrastructure\\eccommerce.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|solutionrelative:eccommerce.infrastructure\\eccommerce.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|solutionrelative:eccommerce.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|solutionrelative:eccommerce.api\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.infrastructure\\persistence\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|solutionrelative:eccommerce.infrastructure\\persistence\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1B82FA6-7004-4EF7-91D9-DE64DDC1A43B}|Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj|solutionrelative:eccommerce.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B9F89EF0-7611-4F40-BA5D-96AF6FEBDC76}|Eccommerce.Domain\\Eccommerce.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9F89EF0-7611-4F40-BA5D-96AF6FEBDC76}|Eccommerce.Domain\\Eccommerce.Domain.csproj|solutionrelative:eccommerce.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\validators\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\validators\\registercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|solutionrelative:eccommerce.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.api\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|solutionrelative:eccommerce.api\\middleware\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9F89EF0-7611-4F40-BA5D-96AF6FEBDC76}|Eccommerce.Domain\\Eccommerce.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F89EF0-7611-4F40-BA5D-96AF6FEBDC76}|Eccommerce.Domain\\Eccommerce.Domain.csproj|solutionrelative:eccommerce.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\commands\\products\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\commands\\products\\deleteproduct\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\commands\\products\\deleteproduct\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\commands\\products\\deleteproduct\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B9F89EF0-7611-4F40-BA5D-96AF6FEBDC76}|Eccommerce.Domain\\Eccommerce.Domain.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9F89EF0-7611-4F40-BA5D-96AF6FEBDC76}|Eccommerce.Domain\\Eccommerce.Domain.csproj|solutionrelative:eccommerce.domain\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccommerce.api\\contracts\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5F56BD2-D213-467E-AA32-64BFBCF163A1}|Eccommerce.Api\\Eccommerce.Api.csproj|solutionrelative:eccommerce.api\\contracts\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|c:\\users\\user\\onedrive\\desktop\\eccommerce\\eccommerce.api\\eccormmerce.application\\commands\\products\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C2773BE-1999-4C90-8334-9B0EBDE20BA5}|Eccormmerce.Application\\Eccormmerce.Application.csproj|solutionrelative:eccormmerce.application\\commands\\products\\updateproduct\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,299 +78,219 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JwtSettings.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Auth\\JwtSettings.cs",
-              "RelativeDocumentMoniker": "Eccommerce.Infrastructure\\Auth\\JwtSettings.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Auth\\JwtSettings.cs",
-              "RelativeToolTip": "Eccommerce.Infrastructure\\Auth\\JwtSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T13:24:12.186Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Eccommerce.Infrastructure\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\DependencyInjection.cs",
-              "RelativeToolTip": "Eccommerce.Infrastructure\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T13:15:30.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "Eccommerce.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\appsettings.json",
-              "RelativeToolTip": "Eccommerce.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-02-05T19:50:08.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Eccommerce.Api\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Eccommerce.Api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAsAAACAZmZmZmYswCcAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T17:55:53.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Program.cs",
-              "RelativeDocumentMoniker": "Eccommerce.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Program.cs",
-              "RelativeToolTip": "Eccommerce.Api\\Program.cs",
-              "ViewState": "AgIAABIAAACAMzMzMzMrwCgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T18:02:36.823Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "JwtTokenGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Auth\\JwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "Eccommerce.Infrastructure\\Auth\\JwtTokenGenerator.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Auth\\JwtTokenGenerator.cs",
-              "RelativeToolTip": "Eccommerce.Infrastructure\\Auth\\JwtTokenGenerator.cs",
-              "ViewState": "AgIAABAAAAAAzczMzMwEwCoAAABDAAAAAAAAAA==",
+              "Title": "SearchProductsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Queries\\SearchProducts\\SearchProductsQuery.cs",
+              "RelativeDocumentMoniker": "Eccormmerce.Application\\Queries\\SearchProducts\\SearchProductsQuery.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Queries\\SearchProducts\\SearchProductsQuery.cs",
+              "RelativeToolTip": "Eccormmerce.Application\\Queries\\SearchProducts\\SearchProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T13:26:38.538Z",
+              "WhenOpened": "2026-02-10T11:11:25.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "LoginCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Auth\\Login\\LoginCommandHandler.cs",
-              "RelativeDocumentMoniker": "Eccormmerce.Application\\Commands\\Auth\\Login\\LoginCommandHandler.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Auth\\Login\\LoginCommandHandler.cs",
-              "RelativeToolTip": "Eccormmerce.Application\\Commands\\Auth\\Login\\LoginCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA6AAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Eccommerce.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T13:06:47.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Validators\\LoginCommandValidator.cs",
-              "RelativeDocumentMoniker": "Eccormmerce.Application\\Validators\\LoginCommandValidator.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Validators\\LoginCommandValidator.cs",
-              "RelativeToolTip": "Eccormmerce.Application\\Validators\\LoginCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T13:17:58.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginCommand.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Auth\\Login\\LoginCommand.cs",
-              "RelativeDocumentMoniker": "Eccormmerce.Application\\Commands\\Auth\\Login\\LoginCommand.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Auth\\Login\\LoginCommand.cs",
-              "RelativeToolTip": "Eccormmerce.Application\\Commands\\Auth\\Login\\LoginCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T13:04:44.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IJwtTokenGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Interfaces\\IJwtTokenGenerator.cs",
-              "RelativeDocumentMoniker": "Eccormmerce.Application\\Interfaces\\IJwtTokenGenerator.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Interfaces\\IJwtTokenGenerator.cs",
-              "RelativeToolTip": "Eccormmerce.Application\\Interfaces\\IJwtTokenGenerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-06T12:59:42.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Services\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "Eccommerce.Infrastructure\\Services\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Services\\PasswordHasher.cs",
-              "RelativeToolTip": "Eccommerce.Infrastructure\\Services\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T17:27:37.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Eccommerce.Infrastructure",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj",
-              "RelativeToolTip": "Eccommerce.Infrastructure\\Eccommerce.Infrastructure.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-02-06T12:37:02.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RegisterCommand.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Auth\\Register\\RegisterCommand.cs",
-              "RelativeDocumentMoniker": "Eccormmerce.Application\\Commands\\Auth\\Register\\RegisterCommand.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Auth\\Register\\RegisterCommand.cs",
-              "RelativeToolTip": "Eccormmerce.Application\\Commands\\Auth\\Register\\RegisterCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:11:35.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RegisterCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Auth\\Register\\RegisterCommandHandler.cs",
-              "RelativeDocumentMoniker": "Eccormmerce.Application\\Commands\\Auth\\Register\\RegisterCommandHandler.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Auth\\Register\\RegisterCommandHandler.cs",
-              "RelativeToolTip": "Eccormmerce.Application\\Commands\\Auth\\Register\\RegisterCommandHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:38:30.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IPasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Interfaces\\IPasswordHasher.cs",
-              "RelativeDocumentMoniker": "Eccormmerce.Application\\Interfaces\\IPasswordHasher.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Interfaces\\IPasswordHasher.cs",
-              "RelativeToolTip": "Eccormmerce.Application\\Interfaces\\IPasswordHasher.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:03:07.81Z",
+              "WhenOpened": "2026-02-09T18:57:38.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "UpdateProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Contracts\\UpdateProductRequest.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Api\\Contracts\\UpdateProductRequest.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Contracts\\UpdateProductRequest.cs",
+              "RelativeToolTip": "Eccommerce.Api\\Contracts\\UpdateProductRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:51:24.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Api\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Eccommerce.Api\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAowGYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:36:55.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchProductsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Queries\\SearchProducts\\SearchProductsHandler.cs",
+              "RelativeDocumentMoniker": "Eccormmerce.Application\\Queries\\SearchProducts\\SearchProductsHandler.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Queries\\SearchProducts\\SearchProductsHandler.cs",
+              "RelativeToolTip": "Eccormmerce.Application\\Queries\\SearchProducts\\SearchProductsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T11:13:07.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Eccormmerce.Application\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "Eccormmerce.Application\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T17:15:36.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Eccommerce.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T10:25:10.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetLowStockProductsHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Queries\\GetLowStock\\GetLowStockProductsHandler.cs",
+              "RelativeDocumentMoniker": "Eccormmerce.Application\\Queries\\GetLowStock\\GetLowStockProductsHandler.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Queries\\GetLowStock\\GetLowStockProductsHandler.cs",
+              "RelativeToolTip": "Eccormmerce.Application\\Queries\\GetLowStock\\GetLowStockProductsHandler.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T10:32:18.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetLowStockProductsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Queries\\GetLowStock\\GetLowStockProductsQuery.cs",
+              "RelativeDocumentMoniker": "Eccormmerce.Application\\Queries\\GetLowStock\\GetLowStockProductsQuery.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Queries\\GetLowStock\\GetLowStockProductsQuery.cs",
+              "RelativeToolTip": "Eccormmerce.Application\\Queries\\GetLowStock\\GetLowStockProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T10:33:50.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdateProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Eccormmerce.Application\\Commands\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "RelativeToolTip": "Eccormmerce.Application\\Commands\\Products\\UpdateProduct\\UpdateProductCommandHandler.cs",
+              "ViewState": "AgIAAAEAAAAwMzMzMzMbwB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T15:52:54.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Eccommerce.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAABAAAACwMjMzM7MzwDIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T16:57:12.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Eccommerce.Infrastructure\\Persistence\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeToolTip": "Eccommerce.Infrastructure\\Persistence\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:56:40.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-09T17:18:14.02Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Eccommerce.Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Eccommerce.Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Products\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "Eccormmerce.Application\\Commands\\Products\\DeleteProduct\\DeleteProductCommand.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Products\\DeleteProduct\\DeleteProductCommand.cs",
+              "RelativeToolTip": "Eccormmerce.Application\\Commands\\Products\\DeleteProduct\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T17:20:32.006Z"
+              "WhenOpened": "2026-02-09T17:04:30.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Eccommerce.Api\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\DependencyInjection.cs",
-              "RelativeToolTip": "Eccommerce.Api\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABwAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "RelativeToolTip": "Eccommerce.Infrastructure\\Persistence\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T13:22:59.323Z"
+              "WhenOpened": "2026-02-09T20:41:08.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RegisterCommandValidator.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Validators\\RegisterCommandValidator.cs",
-              "RelativeDocumentMoniker": "Eccormmerce.Application\\Validators\\RegisterCommandValidator.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Validators\\RegisterCommandValidator.cs",
-              "RelativeToolTip": "Eccormmerce.Application\\Validators\\RegisterCommandValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Api\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Middleware\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "Eccommerce.Api\\Middleware\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T16:52:55.831Z"
+              "WhenOpened": "2026-02-09T18:13:02.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Eccormmerce.Application\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Eccormmerce.Application\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 14,
+              "Title": "DeleteProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Products\\DeleteProduct\\DeleteProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Eccormmerce.Application\\Commands\\Products\\DeleteProduct\\DeleteProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\Commands\\Products\\DeleteProduct\\DeleteProductCommandHandler.cs",
+              "RelativeToolTip": "Eccormmerce.Application\\Commands\\Products\\DeleteProduct\\DeleteProductCommandHandler.cs",
+              "ViewState": "AgIAAAYAAACAZmZmZmYkwA8AAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T15:59:25.8Z"
+              "WhenOpened": "2026-02-09T17:06:30.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Eccommerce.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Eccommerce.Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Eccommerce.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Api\\Program.cs",
+              "RelativeToolTip": "Eccommerce.Api\\Program.cs",
+              "ViewState": "AgIAAEQAAAAAMzMzMzMbwFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T15:50:33.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Eccormmerce.Application\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccormmerce.Application\\DependencyInjection.cs",
-              "RelativeToolTip": "Eccormmerce.Application\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T13:15:39.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Domain\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Eccommerce.Domain\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\user\\OneDrive\\Desktop\\Eccommerce\\Eccommerce.Api\\Eccommerce.Domain\\DependencyInjection.cs",
-              "RelativeToolTip": "Eccommerce.Domain\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T13:14:26.263Z"
+              "WhenOpened": "2026-02-09T17:58:04.834Z"
             }
           ]
         }
