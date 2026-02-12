@@ -73,7 +73,8 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-
+// Add health check services
+builder.Services.AddHealthChecks();
 
 var app = builder.Build();
 
