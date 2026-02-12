@@ -1,24 +1,23 @@
 version: '3.8'
 
 services:
-  # SQL Server Database
-  sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: eccommerce-sqlserver
-    hostname: sqlserver
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: eccommerce-postgres
+    hostname: postgres
     environment:
-      - ACCEPT_EULA=Y
-      - SA_PASSWORD=${SA_PASSWORD:-YourStrong@Passw0rd}
-      - MSSQL_PID=Developer
-      - MSSQL_COLLATION=SQL_Latin1_General_CP1_CI_AS
+      - POSTGRES_USER=${POSTGRES_USER:-postgres}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-YourStrong@Passw0rd}
+      - POSTGRES_DB=${POSTGRES_DB:-eccommercedb}
     ports:
-      - "1433:1433"
+      - "5432:5432"
     volumes:
-      - sqlserver-data:/var/opt/mssql
+      - postgres-data:/var/lib/postgresql/data
     networks:
       - eccommerce-network
     healthcheck:
-      test: /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "$${SA_PASSWORD}" -Q "SELECT 1" || exit 1
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
       interval: 10s
       timeout: 3s
       retries: 10
@@ -34,12 +33,12 @@ services:
         BUILD_CONFIGURATION: ${BUILD_CONFIGURATION:-Release}
     container_name: eccommerce-api
     depends_on:
-      sqlserver:
+      postgres:
         condition: service_healthy
     environment:
       - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT:-Development}
       - ASPNETCORE_URLS=http://+:8080
-      - ConnectionStrings__Default=Server=sqlserver;Database=EccommerceDb;User Id=sa;Password=${SA_PASSWORD:-YourStrong@Passw0rd};TrustServerCertificate=True;
+      - ConnectionStrings__Default=Host=postgres;Database=${POSTGRES_DB:-eccommercedb};Username=${POSTGRES_USER:-postgres};Password=${POSTGRES_PASSWORD:-YourStrong@Passw0rd};SSL Mode=Prefer;Trust Server Certificate=true;
       - JwtSettings__Secret=${JWT_SECRET:-THIS_IS_A_SUPER_LONG_AND_SECURE_JWT_SECRET_KEY_1234567890}
       - JwtSettings__Issuer=${JWT_ISSUER:-EccommerceApi}
       - JwtSettings__Audience=${JWT_AUDIENCE:-EccommerceClient}
@@ -65,17 +64,18 @@ services:
     #   - ./Eccommerce.Domain:/src/Eccommerce.Domain:ro
     #   - ./Eccommerce.Infrastructure:/src/Eccommerce.Infrastructure:ro
 
-  # Optional: SQL Server Management Tool (Adminer)
+  # Optional: Database Management Tool (pgAdmin)
   # Uncomment to enable web-based database management
-  # adminer:
-  #   image: adminer:latest
-  #   container_name: eccommerce-adminer
+  # pgadmin:
+  #   image: dpage/pgadmin4:latest
+  #   container_name: eccommerce-pgadmin
   #   depends_on:
-  #     - sqlserver
+  #     - postgres
   #   environment:
-  #     - ADMINER_DEFAULT_SERVER=sqlserver
+  #     - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+  #     - PGADMIN_DEFAULT_PASSWORD=admin
   #   ports:
-  #     - "8080:8080"
+  #     - "8080:80"
   #   networks:
   #     - eccommerce-network
   #   restart: unless-stopped
@@ -85,5 +85,5 @@ networks:
     driver: bridge
 
 volumes:
-  sqlserver-data:
+  postgres-data:
     driver: local

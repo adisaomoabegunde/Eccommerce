@@ -18,7 +18,7 @@ namespace Eccommerce.Infrastructure
     {
         public static IServiceCollection AddInfrastructureDI (this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<AppDbContext> (options => options.UseSqlServer(configuration.GetConnectionString("Default"),
+            services.AddDbContext<AppDbContext> (options => options.UseNpgsql(configuration.GetConnectionString("Default"),
                 b => b.MigrationsAssembly(typeof(AppDbContext).Assembly.FullName)));
             services.Configure<JwtSettings>(configuration.GetSection("JwtSettings"));
 

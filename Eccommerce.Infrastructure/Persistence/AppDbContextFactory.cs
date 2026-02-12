@@ -18,8 +18,8 @@ public class AppDbContextFactory
 
         var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
 
-        optionsBuilder.UseSqlServer(
-            configuration.GetConnectionString("DefaultConnection"));
+        optionsBuilder.UseNpgsql(
+            configuration.GetConnectionString("Default"));
 
         return new AppDbContext(optionsBuilder.Options);
     }

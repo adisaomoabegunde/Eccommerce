@@ -1,0 +1,64 @@
+# Render Blueprint for Eccommerce API
+# This file defines your infrastructure as code for Render.com
+
+databases:
+  # PostgreSQL Database (Managed by Render)
+  - name: eccommerce-db
+    databaseName: eccommercedb
+    user: eccommerce
+    plan: starter # Free tier: 256 MB RAM, 1 GB storage
+    region: oregon # Change to match your web service region
+    postgresMajorVersion: 16
+
+services:
+  # Web Service (API)
+  - type: web
+    name: eccommerce-api
+    env: docker
+    dockerfilePath: ./Dockerfile
+    region: oregon # Must match database region for low latency
+    plan: starter # Options: starter ($7/mo after free trial), standard ($25/mo), pro ($85/mo)
+    healthCheckPath: /health
+    envVars:
+      # Application Settings
+      - key: ASPNETCORE_ENVIRONMENT
+        value: Production
+
+      - key: ASPNETCORE_URLS
+        value: http://+:8080
+
+      # Database Connection (Automatically from managed PostgreSQL)
+      - key: ConnectionStrings__Default
+        fromDatabase:
+          name: eccommerce-db
+          property: connectionString
+
+      # JWT Settings
+      - key: JwtSettings__Secret
+        generateValue: true # Render generates a secure random 256-bit value
+
+      - key: JwtSettings__Issuer
+        value: EccommerceApi
+
+      - key: JwtSettings__Audience
+        value: EccommerceClient
+
+      - key: JwtSettings__ExpiryMinutes
+        value: 60
+
+      # Logging
+      - key: Logging__LogLevel__Default
+        value: Warning
+
+      - key: Logging__LogLevel__Microsoft.AspNetCore
+        value: Warning
+
+    # Auto-deploy from git branch
+    autoDeploy: true
+    branch: main # Deploy from main branch
+
+    # Scaling (available on paid plans)
+    # numInstances: 2
+
+    # Health check configuration
+    # Render will call /health endpoint every 30 seconds

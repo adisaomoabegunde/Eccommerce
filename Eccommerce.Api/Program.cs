@@ -87,6 +87,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Enable Swagger in production for API documentation (useful for Render deployment)
+if (app.Environment.IsProduction())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Eccommerce API v1");
+        c.RoutePrefix = "swagger"; // Access at /swagger
+    });
+}
 
 app.UseHttpsRedirection();
 
@@ -94,5 +104,8 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
+
+// Health check endpoint for container orchestration (Docker, Kubernetes, Render)
+app.MapHealthChecks("/health");
 
 app.Run();
