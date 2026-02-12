@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: eccommerce-api-config
+  namespace: eccommerce
+data:
+  ASPNETCORE_ENVIRONMENT: "Production"
+  ASPNETCORE_URLS: "http://+:8080"
+  JwtSettings__Issuer: "EccommerceApi"
+  JwtSettings__Audience: "EccommerceClient"
+  JwtSettings__ExpiryMinutes: "60"
+  Logging__LogLevel__Default: "Warning"
+  Logging__LogLevel__Microsoft.AspNetCore: "Warning"

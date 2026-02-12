@@ -1,0 +1,89 @@
+version: '3.8'
+
+services:
+  # SQL Server Database
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: eccommerce-sqlserver
+    hostname: sqlserver
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=${SA_PASSWORD:-YourStrong@Passw0rd}
+      - MSSQL_PID=Developer
+      - MSSQL_COLLATION=SQL_Latin1_General_CP1_CI_AS
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-data:/var/opt/mssql
+    networks:
+      - eccommerce-network
+    healthcheck:
+      test: /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P "$${SA_PASSWORD}" -Q "SELECT 1" || exit 1
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+    restart: unless-stopped
+
+  # Eccommerce API
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILD_CONFIGURATION: ${BUILD_CONFIGURATION:-Release}
+    container_name: eccommerce-api
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT:-Development}
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__Default=Server=sqlserver;Database=EccommerceDb;User Id=sa;Password=${SA_PASSWORD:-YourStrong@Passw0rd};TrustServerCertificate=True;
+      - JwtSettings__Secret=${JWT_SECRET:-THIS_IS_A_SUPER_LONG_AND_SECURE_JWT_SECRET_KEY_1234567890}
+      - JwtSettings__Issuer=${JWT_ISSUER:-EccommerceApi}
+      - JwtSettings__Audience=${JWT_AUDIENCE:-EccommerceClient}
+      - JwtSettings__ExpiryMinutes=${JWT_EXPIRY_MINUTES:-60}
+      - Logging__LogLevel__Default=${LOG_LEVEL:-Information}
+      - Logging__LogLevel__Microsoft.AspNetCore=Information
+    ports:
+      - "${API_HTTP_PORT:-5000}:8080"
+      - "${API_HTTPS_PORT:-5001}:8081"
+    networks:
+      - eccommerce-network
+    restart: unless-stopped
+    healthcheck:
+      test: curl --fail http://localhost:8080/health || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    # Uncomment volumes below for hot reload in development
+    # volumes:
+    #   - ./Eccommerce.Api:/src/Eccommerce.Api:ro
+    #   - ./Eccormmerce.Application:/src/Eccormmerce.Application:ro
+    #   - ./Eccommerce.Domain:/src/Eccommerce.Domain:ro
+    #   - ./Eccommerce.Infrastructure:/src/Eccommerce.Infrastructure:ro
+
+  # Optional: SQL Server Management Tool (Adminer)
+  # Uncomment to enable web-based database management
+  # adminer:
+  #   image: adminer:latest
+  #   container_name: eccommerce-adminer
+  #   depends_on:
+  #     - sqlserver
+  #   environment:
+  #     - ADMINER_DEFAULT_SERVER=sqlserver
+  #   ports:
+  #     - "8080:8080"
+  #   networks:
+  #     - eccommerce-network
+  #   restart: unless-stopped
+
+networks:
+  eccommerce-network:
+    driver: bridge
+
+volumes:
+  sqlserver-data:
+    driver: local
