@@ -1,0 +1,102 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eccommerce-api
+  namespace: eccommerce
+  labels:
+    app: eccommerce-api
+    version: v1
+spec:
+  replicas: 3
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: eccommerce-api
+  template:
+    metadata:
+      labels:
+        app: eccommerce-api
+        version: v1
+    spec:
+      containers:
+      - name: eccommerce-api
+        image: ghcr.io/your-org/eccommerce-api:latest  # Update with your registry
+        imagePullPolicy: Always
+        ports:
+        - name: http
+          containerPort: 8080
+          protocol: TCP
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          valueFrom:
+            configMapKeyRef:
+              name: eccommerce-api-config
+              key: ASPNETCORE_ENVIRONMENT
+        - name: ASPNETCORE_URLS
+          valueFrom:
+            configMapKeyRef:
+              name: eccommerce-api-config
+              key: ASPNETCORE_URLS
+        - name: ConnectionStrings__Default
+          valueFrom:
+            secretKeyRef:
+              name: eccommerce-api-secret
+              key: ConnectionStrings__Default
+        - name: JwtSettings__Secret
+          valueFrom:
+            secretKeyRef:
+              name: eccommerce-api-secret
+              key: JwtSettings__Secret
+        - name: JwtSettings__Issuer
+          valueFrom:
+            configMapKeyRef:
+              name: eccommerce-api-config
+              key: JwtSettings__Issuer
+        - name: JwtSettings__Audience
+          valueFrom:
+            configMapKeyRef:
+              name: eccommerce-api-config
+              key: JwtSettings__Audience
+        - name: JwtSettings__ExpiryMinutes
+          valueFrom:
+            configMapKeyRef:
+              name: eccommerce-api-config
+              key: JwtSettings__ExpiryMinutes
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "250m"
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+        startupProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 0
+          periodSeconds: 10
+          timeoutSeconds: 3
+          failureThreshold: 30
+      # Image pull secrets (if using private registry)
+      # imagePullSecrets:
+      # - name: registry-credentials

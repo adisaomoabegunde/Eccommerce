@@ -1,0 +1,89 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: eccommerce-postgres
+    hostname: postgres
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER:-postgres}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-YourStrong@Passw0rd}
+      - POSTGRES_DB=${POSTGRES_DB:-eccommercedb}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - eccommerce-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 10s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+    restart: unless-stopped
+
+  # Eccommerce API
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILD_CONFIGURATION: ${BUILD_CONFIGURATION:-Release}
+    container_name: eccommerce-api
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT:-Development}
+      - ASPNETCORE_URLS=http://+:8080
+      - ConnectionStrings__Default=Host=postgres;Database=${POSTGRES_DB:-eccommercedb};Username=${POSTGRES_USER:-postgres};Password=${POSTGRES_PASSWORD:-YourStrong@Passw0rd};SSL Mode=Prefer;Trust Server Certificate=true;
+      - JwtSettings__Secret=${JWT_SECRET:-THIS_IS_A_SUPER_LONG_AND_SECURE_JWT_SECRET_KEY_1234567890}
+      - JwtSettings__Issuer=${JWT_ISSUER:-EccommerceApi}
+      - JwtSettings__Audience=${JWT_AUDIENCE:-EccommerceClient}
+      - JwtSettings__ExpiryMinutes=${JWT_EXPIRY_MINUTES:-60}
+      - Logging__LogLevel__Default=${LOG_LEVEL:-Information}
+      - Logging__LogLevel__Microsoft.AspNetCore=Information
+    ports:
+      - "${API_HTTP_PORT:-5000}:8080"
+      - "${API_HTTPS_PORT:-5001}:8081"
+    networks:
+      - eccommerce-network
+    restart: unless-stopped
+    healthcheck:
+      test: curl --fail http://localhost:8080/health || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    # Uncomment volumes below for hot reload in development
+    # volumes:
+    #   - ./Eccommerce.Api:/src/Eccommerce.Api:ro
+    #   - ./Eccormmerce.Application:/src/Eccormmerce.Application:ro
+    #   - ./Eccommerce.Domain:/src/Eccommerce.Domain:ro
+    #   - ./Eccommerce.Infrastructure:/src/Eccommerce.Infrastructure:ro
+
+  # Optional: Database Management Tool (pgAdmin)
+  # Uncomment to enable web-based database management
+  # pgadmin:
+  #   image: dpage/pgadmin4:latest
+  #   container_name: eccommerce-pgadmin
+  #   depends_on:
+  #     - postgres
+  #   environment:
+  #     - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+  #     - PGADMIN_DEFAULT_PASSWORD=admin
+  #   ports:
+  #     - "8080:80"
+  #   networks:
+  #     - eccommerce-network
+  #   restart: unless-stopped
+
+networks:
+  eccommerce-network:
+    driver: bridge
+
+volumes:
+  postgres-data:
+    driver: local

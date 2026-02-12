@@ -2,7 +2,7 @@
 
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-USER $APP_UID
+USER app
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8081
@@ -21,6 +21,11 @@ COPY . .
 WORKDIR "/src/Eccommerce.Api"
 RUN dotnet build "./Eccommerce.Api.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
+# This stage runs tests (optional - uncomment when test projects are added)
+# FROM build AS test
+# WORKDIR /src
+# RUN dotnet test --configuration $BUILD_CONFIGURATION --no-build --verbosity normal
+
 # This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
@@ -30,4 +35,14 @@ RUN dotnet publish "./Eccommerce.Api.csproj" -c $BUILD_CONFIGURATION -o /app/pub
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
+
+# Install curl for health checks
+USER root
+RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+USER app
+
+# Health check configuration
+HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
+  CMD curl -f http://localhost:8080/health || exit 1
+
 ENTRYPOINT ["dotnet", "Eccommerce.Api.dll"]
