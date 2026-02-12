@@ -22,7 +22,7 @@ namespace Eccommerce.Api.Controllers
         {
             _mediator = mediator;
         }
-// create product apiApI
+// create product apiApI another 
         [Authorize]
         [HttpPost("create-product")]
         public async Task<IActionResult> Create(CreateProductCommand command)
